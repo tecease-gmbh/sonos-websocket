@@ -4,7 +4,7 @@ import argparse
 import asyncio
 import logging
 
-from .websocket import SonosWebsocket
+from .sonos_websocket import SonosWebsocket
 
 logging.basicConfig(level=logging.DEBUG)
 
